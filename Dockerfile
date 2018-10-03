@@ -5,6 +5,6 @@ WORKDIR /usr/src/release-deployment-history
 RUN pip install flask 
 
 COPY . .
-EXPOSE 3005
+EXPOSE 3000
 
 ENTRYPOINT python app.py
